@@ -14,8 +14,8 @@
     border: 2px rgb(163, 163, 163) solid;
     padding: 10px;
     margin-bottom: 2px;
-   text-align: center;
-   color:rgb(244, 0, 0);
+    text-align: center;
+    color:rgb(244, 0, 0);
 }
 /* Nested Selector */
 .Welcome p
