@@ -1,0 +1,29 @@
+/* # use for id  and . use for class */
+#GreenHead
+{
+    color: rgb(14, 206, 0);
+}
+.BlueHead{
+    color: blue;
+}
+/* Multiple Selector */
+
+.Welcome , .About
+{
+    background-color: aqua;
+    border: 2px rgb(163, 163, 163) solid;
+    padding: 10px;
+    margin-bottom: 2px;
+   text-align: center;
+   color:rgb(244, 0, 0);
+}
+/* Nested Selector */
+.Welcome p
+{
+    font-size: 20px;
+}
+/* Elementor Selector */
+body
+{
+    background-color: #333;
+}
