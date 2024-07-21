@@ -1,4 +1,13 @@
+/* Css Reset */
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 /* # use for id  and . use for class */
+
 #GreenHead
 {
     color: rgb(14, 206, 0);
@@ -84,4 +93,22 @@ body
     background: url(./BaustLogo.png)center no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+.box
+{
+    background: black;
+    color: white;
+    border: 2px solid red;
+    width: 500px;
+    /* Padding and margin all Side */
+    padding: 20px;
+    margin: 20px;
+    /* padding shorthand ALl side */
+    /* top, right, bottom, left */
+    padding:10px 20px 10px 20px;
+    margin:20px 10px 20px 10px;
+}
+.box h3
+{
+    padding-bottom: 20px;
 }
