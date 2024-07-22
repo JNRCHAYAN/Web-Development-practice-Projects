@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Styling</title>
+    <style>
+        body
+        {
+            background-color: rgb(57, 61, 113);
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 30px;
+            
+        }
+        h2,p,h4
+        {
+            text-align: center;
+            padding-bottom: 0px;
+           
+            
+        }
+        h4{
+            color: white;
+
+        }
+        h4 a
+        {
+            
+            color: rgb(2, 197, 184);
+        }
+        p
+        {
+            font-size: 14px;
+            padding-bottom: 5px;
+            padding-top: 0px;
+            line-height: 20px;
+    
+
+        }
+        .from_body{
+          
+            width: 300px;
+            height: 470px;
+            background-color: white;
+            padding: 10px;
+            border: 3px white solid;
+            border-radius: 9px;
+            margin: auto;
+            align-content: center;
+        }
+        form input,label
+        {
+            margin: 5px;
+            padding: 3px;
+            width: 265px;
+            font-family: serif;
+        }
+        label
+        {
+            opacity: 80%;
+        }
+        .btn
+        {
+            color: rgb(255, 255, 255);
+            background-color:  rgb(2, 197, 184);
+            border: 0px;
+            font-weight: bold;
+            border-radius: 5px;
+            width: 280px;
+            height: 30px;
+        }
+        .heading
+        {
+            
+            line-height: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="from_body">
+        <div class="heading">
+            <h2 >Sign Up</h2>
+            <p>It's free and only takes a miunte</p>
+        </div>
+       
+        <form action="09_Position.html" >
+            <div>
+                <label for="Firstname">First Name</label>
+                <br>
+                <input type="text" name="text" id="text">
+            </div>
+            <div>
+                <label for="LastName">Last Name</label>
+                <br>
+                <input type="text" name="LastName" id="LastName">
+            </div>
+            <div>
+                <label for="Email">Email</label>
+                <br>
+                <input type="email" name="Email" id="Email">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="confirmPassword">ConfirmPassword</label>
+                <br>
+                <input type="password" name="confirmPassword" id="confirmPassword">
+            </div>
+            <br>
+            <div>
+                <button class="btn">Sign Up</button>
+            </div>
+        </form>
+        <p>By Clicking the Sign Up button.You agree to our <a href="#">Terms & condition  </a>and <a href="#">Privacy Policy</a> 
+       </p>
+    </div>
+    <div>
+    <h4>Already hava an account? <a href="#">Login Here</a></h4>
+    </div>
+</body>
+</html>
