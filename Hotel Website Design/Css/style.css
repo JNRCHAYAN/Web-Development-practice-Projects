@@ -235,6 +235,38 @@ padding: 30px 0;
 
 }
 
+
+/* contact page design  */
+
+#contact-from .from-group
+{
+    margin-bottom: 20px;
+}
+#contact-from label
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-from input, #contact-from textarea
+{
+    width: 100%;
+    padding:10px;
+    border: 1px #ddd solid;
+}
+#contact-from textarea
+{
+    height: 200px;
+}
+
+#contact-from input:focus, #contact-from textarea{
+    outline: none;
+    border-color: #f7c08a;
+}
+
+
+
+
 #main-footer
 {
 text-align: center;
