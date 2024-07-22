@@ -149,12 +149,24 @@ p
 }
 .bg-primary
 {
-    background: #333;
-    color: #f7c08a;
+    color: #333;
+    background: #f7c08a;
 }
 
 #home-info .info-content p
 {
     padding-bottom: 30px;
    
+}
+/* Feature Section  */
+.box
+{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i
+{
+    margin-bottom: 10px;
 }
