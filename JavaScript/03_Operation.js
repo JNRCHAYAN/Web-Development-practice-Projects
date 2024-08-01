@@ -7,4 +7,5 @@ console.log("N1+N2 : "+(n1+n2));
 console.log("N1-N2 : "+(n1-n2));
 console.log("N1*N2 : "+(n1*n2));
 console.log("N1/N2 : "+(n1/n2));
+console.log("N1%N2 : "+(n1%n2));
 
