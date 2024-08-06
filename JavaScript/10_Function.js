@@ -4,7 +4,7 @@ function math(x ,y)
 }
 
 // New Formate to create a fucntion in javascript 
-const hello = ()=>
+const hello = ()=> // Arrow Function
 {
     console.log("Hello world")
 }
