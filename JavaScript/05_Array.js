@@ -20,3 +20,54 @@ number.push("Chayan");
 console.log(number);
 number.pop();  // Last Element Remove 
 console.log(number);
+
+let r = number.shift() // Remove element from fast of an array
+console.log(r,number)
+
+let rr = number.unshift(6) // Add element from Last of an array
+console.log(rr,number)
+// Use Delete keyword
+let num = [100,4,45,3,5,3,5,5,4];
+delete num[0]
+console.log(num)
+
+// Concate Keyword 
+let num1 = [100,4,45,3,5,3,5,5,4];
+let num2 = [4,44,4445,3,54,3,5,5,4];
+
+let newarr = num1.concat(num2)
+console.log(newarr)
+
+// Array sort with sort function
+num1.sort() // Original array modefiy 
+// It's sort string short not a number
+console.log(num1)
+
+// Asseding oder sort using compare function
+let compare =(a,b)=>
+{
+    return a-b
+}
+num2.sort(compare)
+console.log(num2)
+
+// Desnding oder sort using compare function
+let dcompare =(a,b)=>
+{
+    return b-a
+}
+num.sort(compare)
+console.log(num)
+
+// Reverse Function use
+num1.reverse()
+console.log(num1)
+
+// Use Splice Function
+let n = [5,3,6,7,8,9,2,3,2,1]
+n.splice(2,4,20,21,22) // Main Array modiify
+console.log(n)
+n.splice(3) // After Range value Print
+console.log(n)
+n.splice(3,5)
+console.log(n)
