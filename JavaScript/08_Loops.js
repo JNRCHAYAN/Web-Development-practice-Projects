@@ -20,3 +20,9 @@ for(let a in obj)
 {
     console.log("Markes of "+a+ " are : "+obj[a])
 }
+
+// for of loops 
+for(let b of "Chayan")
+    {
+        console.log(b)
+    }
