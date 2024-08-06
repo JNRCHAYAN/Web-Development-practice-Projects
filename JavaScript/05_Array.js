@@ -71,3 +71,9 @@ n.splice(3) // After Range value Print
 console.log(n)
 n.splice(3,5)
 console.log(n)
+
+// Use Foreach loop
+
+n.forEach((element) => {
+    console.log(element*element)
+});
