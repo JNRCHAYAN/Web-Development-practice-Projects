@@ -87,7 +87,7 @@ for(let k of num1)
 {
     console.log(k)
 }
-// For in loop
+// For in loop   (Use for print array key or index)
 for(let k in num1)
 {
     console.log(k)

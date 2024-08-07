@@ -30,6 +30,6 @@ console.log("Reduce Method")
 let arr3 = [45,35,2,4,2,6,55,4]
 let newarr3 = arr3.reduce((h1,h2)=>
 {
-    return h1+h2
+    return h1+h2  // 1st and 2nd value + all loop array
 })
 console.log(newarr3)
