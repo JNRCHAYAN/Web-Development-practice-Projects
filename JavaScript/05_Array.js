@@ -77,3 +77,18 @@ console.log(n)
 n.forEach((element) => {
     console.log(element*element)
 });
+
+let name1 = "Chayan"
+let arr1 = Array.from(name1)  // Create an array using array from function string to array
+console.log(arr1)
+
+// For of loop
+for(let k of num1)
+{
+    console.log(k)
+}
+// For in loop
+for(let k in num1)
+{
+    console.log(k)
+}
