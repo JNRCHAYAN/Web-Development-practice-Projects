@@ -20,9 +20,4 @@ else
 }
 
 
-
-
-
-
-
 // console.table(console) // Show console all methode 
