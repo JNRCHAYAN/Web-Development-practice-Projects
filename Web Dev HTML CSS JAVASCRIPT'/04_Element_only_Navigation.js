@@ -1,3 +1,10 @@
+const changeboday =() =>
+{
+    document.body.firstElementChild.style.backgraound = "red"
+}
+
+
+
 let b = document.body
 
 console.log("First child of b is : ",b.firstChild)
