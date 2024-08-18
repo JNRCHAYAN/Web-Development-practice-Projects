@@ -1,10 +1,13 @@
 h1{
     color: blue;
+    background-color: bisque;
 }
 p{
     color: aqua;
+    background-color: rgb(203, 113, 2);
 }
 
 button{
     color: gold;
+    background-color: black;
 }
