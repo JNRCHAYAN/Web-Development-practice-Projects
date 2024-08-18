@@ -37,8 +37,11 @@ button{
     font-size: 3rem;
 
     font-family: arial;
-
- }
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+ 
+}
 
  .link{
     text-decoration: none;
