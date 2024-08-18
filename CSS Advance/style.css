@@ -1,3 +1,4 @@
+/* Color Properties use */
 h1{
     color: blue;
     background-color: bisque;
@@ -5,9 +6,29 @@ h1{
 p{
     color: aqua;
     background-color: rgb(203, 113, 2);
+    font-weight: bold;
 }
 
 button{
     color: gold;
     background-color: black;
 }
+ /* Apply Text Properties  */
+
+ .text_pro{
+    text-align: center;
+    font-weight: 1000;
+    /* font-weight: bolder; */
+    /* font-weight: lighter; */
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: rgb(255, 0, 166) line-through;
+    text-decoration: rgb(255, 0, 166)  dashed underline;
+    text-decoration: rgb(255, 0, 166)  double underline;
+    text-decoration: rgb(255, 0, 166)  wavy underline;
+
+ }
+
+ .link{
+    text-decoration: none;
+ }
