@@ -26,13 +26,17 @@ button{
     text-decoration: rgb(255, 0, 166)  dashed underline;
     text-decoration: rgb(255, 0, 166)  double underline;
     text-decoration: rgb(255, 0, 166)  wavy underline;
+  
     line-height: 5;
     letter-spacing: normal;
-    letter-spacing: 20px;
+    letter-spacing: 20 px;
+
     font-size: 200%;
     font-size: 30px;
     font-size: 3em;
     font-size: 3rem;
+
+    font-family: arial;
 
  }
 
