@@ -111,3 +111,8 @@ Selector Specificity
 id> class> Element 
 More selector> less Selector
 if Specificity same then css Cascading */
+
+/* !important  */
+h3{
+    background-color : rgb(208, 208, 208) !important;
+}
