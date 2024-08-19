@@ -3,13 +3,15 @@ div{
     width: 50%;
     background-color: yellow;
     border: 2px solid black;
+    border-radius: 10px;
 
 }
 h1
 {
     /* border: 2px double blue; */
-
     border-top:  2px double blue; 
     border-bottom:  2px double rgb(0, 0, 0); 
     border-left: 2px double rgb(255, 0, 0);
+    border-top-left-radius:20px ;
+    
 }
