@@ -29,3 +29,8 @@ p a{
     color: purple;
     
 }
+
+/* Adjacent Sibling Combinator */
+p+h3{
+    text-decoration: underline;
+}
