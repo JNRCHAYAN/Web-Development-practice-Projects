@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 50%;
+    background-color: yellow;
+    border: 2px solid black;
+
+}
+h1
+{
+    /* border: 2px double blue; */
+
+    border-top:  2px double blue; 
+    border-bottom:  2px double rgb(0, 0, 0); 
+    border-left: 2px double rgb(255, 0, 0);
+}
