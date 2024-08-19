@@ -106,6 +106,8 @@ h3
 {
     background-color: rgb(206, 206, 206);
 }
-
-/* Selector Specificity */
-/* id> class> Element  */
+/* 
+Selector Specificity
+id> class> Element 
+More selector> less Selector
+if Specificity same then css Cascading */
