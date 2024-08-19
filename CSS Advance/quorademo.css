@@ -1,7 +1,9 @@
+/* All Website apply Selector */
 *{
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* Html Element Selector */
 h1,h3
 {
     color: #b92b27;
@@ -10,12 +12,20 @@ h1,h3
     background-color: white;
 
 }
+/* Id Selector  */
 #signup{
     background-color: #b92b27;
     color: white;
 }
+/* class Selector  */
 .upvote{
     background-color: green;
     color: aliceblue;
+}
 
+/* Descendant Selector */
+
+p a{
+    color: purple;
+    
 }
