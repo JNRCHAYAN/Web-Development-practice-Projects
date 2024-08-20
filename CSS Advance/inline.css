@@ -9,11 +9,14 @@ span
     padding: 20px;
     margin: 20px;
 }
+
 .test{
     display: inline-block;
     height: 200px;
     width: 200px;
-    background-color: greenyellow;
+    background-color: rgb(12, 158, 255);
     border: 2px solid black;
     margin: 5px;
 }
+
+
