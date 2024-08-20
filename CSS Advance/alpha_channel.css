@@ -1,0 +1,16 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.05);
+    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 1);
+    /* Alpha channel use for color dencity */
+
+    /* opacity work for hole div */
+
+}
+
+#opacity{
+    background-color: #ffa511;
+    opacity: 0.5;
+}
