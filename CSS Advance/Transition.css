@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    transition-duration: 0.5s 0.5s;
+
+}
+
+#value{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+    transition: margin-top 2s ease-in-out 0.2s;
+    transition: margin-top 2s ease 0.2s;
+
+}
+#value:hover{
+    margin-top: 480px;
+}
+
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+
+}
+
