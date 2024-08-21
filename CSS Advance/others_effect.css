@@ -1,0 +1,76 @@
+/* Set Background image  */
+#idd{
+    width: 500px;
+    height:  500px;
+    text-align: center;
+    font-size: 200px;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    margin: 10px auto;
+    margin-top: 100px;
+    box-shadow: 2px 2px 8px yellow;
+    background-image: url(test.jpg) ;
+    background-size: contain;
+    background-size: auto;
+    background-size: cover;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 4px 8px black;
+}
+.desc{
+    padding: 0 2px 0 2px;
+}
+img{
+    width: 50%;
+    border-radius: 5px 5px 0 0;
+    margin-top: 5px;
+}
+.card:hover{
+    box-shadow: 1px 4px 16px black;
+
+}
+
+.divv{
+    
+        width: 200px;
+        height:  200px;
+        text-align: center;
+        font-size: 200px;
+        color: white;
+        background-color: rgb(3, 173, 122);
+        margin: 20px;
+        display: inline-block;
+ 
+}
+#Static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+#relative{
+    background-color: rgb(0, 132, 255);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#Absolute{
+    background-color: rgb(242, 0, 255);
+    position: absolute;
+    top: 1599px;
+    left: 200px;
+}
+#Fixed{
+    background-color: rgb(0, 255, 102);
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+}
