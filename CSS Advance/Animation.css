@@ -1,0 +1,77 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    animation-name: fontanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count:100 ;
+    animation-iteration-count:infinite;
+
+    animation-direction: start;
+    animation-direction: end;
+    animation-direction: alternate;
+
+    animation-name: coloranimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+
+    animation-direction: start;
+    animation-direction: end;
+    animation-direction: alternate;
+
+
+
+    animation-name: persentage_animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+
+    animation-direction: start;
+    animation-direction: end;
+    animation-direction: alternate;
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    
+}
+
+@keyframes fontanimation {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+
+@keyframes coloranimation {
+    from{
+        color: black;
+        font-size: 20px;
+    }
+    to{
+       color: rgb(255, 0, 0);
+       font-size: 40px;
+    }
+}
+
+@keyframes persentage_animation {
+    0%{
+        color: black;
+        font-size: 20px;
+    }
+    50%
+    {
+        color: rgb(25, 0, 255);
+        font-size: 40px; 
+    }
+   100%{
+       color: rgb(255, 0, 0);
+       font-size: 50px;
+    }
+}
