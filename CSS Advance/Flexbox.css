@@ -50,25 +50,33 @@
 
 #ref{
    /* Align Self  it's only use for individual item */
-   align-self: flex-start;
+   /* align-self: flex-start;
    align-self: center;
    align-self: baseline;
-   align-self: flex-end;
+   align-self: flex-end; */
 }
 
 /* Flex Sizing  */
 #ref
 {
-    flex-basis:10px;
-}
+    /* flex-basis:750px; */
+    flex-grow: 1;
+    min-width: auto;
+    /* flex-shrink: 1; */
 
+}
+#blue{
+    /* flex-basis: 1000px; */
+    flex-grow: 3;
+    max-width: 500px;
+}
 
 h1{
     text-align: center;
 }
 #container div{
     height: 100px;
-    width:300px;
+    width:5000px;
     color: white;
     text-align: center;
     font-size: 1.5em;
