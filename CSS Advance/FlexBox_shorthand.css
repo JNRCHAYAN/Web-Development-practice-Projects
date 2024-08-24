@@ -1,0 +1,44 @@
+#container{
+   
+    height: 300px;
+    width: 80%;
+    background-color: rebeccapurple;
+    margin: 10px auto;
+    border: 2px solid black;
+
+    /* flex */
+    display: flex;
+
+
+}
+
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width:500px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+#ref
+{
+  flex: 2 2 100px;
+
+}
+#blue{
+    /* flex-grow | flex-shrink | flex-basis  */
+    flex: 2 2 100px;    
+
+    /* flex-grow | flex-basis  */
+    flex: 2 100px;
+
+    /* flex-grow(unitless) */
+    flex: 2;
+
+    /* flex-basis */
+    flex: 100px;
+}
